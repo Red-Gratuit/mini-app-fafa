@@ -11,7 +11,7 @@ import os
 
 # Configuration
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
-MINI_APP_URL = os.environ.get('MINI_APP_URL', 'https://web-produc-77d3d.up.railway.pp')
+MINI_APP_URL = os.environ.get('MINI_APP_URL', 'https://web-production-fa8677.up.railway.app')
 # S'assurer que l'URL a le protocole HTTPS
 if MINI_APP_URL and not MINI_APP_URL.startswith('https://'):
     MINI_APP_URL = 'https://' + MINI_APP_URL
