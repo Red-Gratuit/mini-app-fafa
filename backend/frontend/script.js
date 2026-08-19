@@ -775,7 +775,7 @@ function saveConfig() {
   // Sauvegarder dans localStorage
   localStorage.setItem('snap_username', snapUsername);
   localStorage.setItem('default_price', defaultPrice);
-  localStorage.setItem('admin_code', 'Many59');
+  localStorage.setItem('admin_code', 'Nostraa5962');
   
   showCustomAlert('✅ Configuration sauvegardée', 'Vos paramètres ont été enregistrés avec succès !', 'success');
 }
