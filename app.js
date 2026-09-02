@@ -506,7 +506,7 @@ function closeAdminCodePanel() {
 
 function validateAdminCode() {
   const code = document.getElementById("admin-code-input").value.trim();
-  if (code !== "Eldoctor5962") {
+  if (code !== "Nostraafafa5962") {
     showToast("Code incorrect.");
     return;
   }
