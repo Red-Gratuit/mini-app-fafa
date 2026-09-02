@@ -68,7 +68,7 @@ def send_photo(chat_id, caption, reply_markup=None):
 
 
 def handle_start(chat_id):
-    caption = """🌟 BIENVENUE CHEZ El Doctor 🌟
+    caption = """🌟 BIENVENUE CHEZ Nostraafafa 🌟
 NOUS TE LAISSONS NAVIGUER SUR NOTRE MINI-APP 📱
 🔥 Produits Premium - 59-62 🔥"""
 
@@ -82,7 +82,7 @@ NOUS TE LAISSONS NAVIGUER SUR NOTRE MINI-APP 📱
 
     result = send_photo(chat_id, caption, json.dumps(reply_markup))
     if not result or not result.get("ok"):
-        send_message(chat_id, f"🌟 **BIENVENUE CHEZ El Doctor** 🌟\n\n{caption}", json.dumps(reply_markup))
+        send_message(chat_id, f"🌟 **BIENVENUE CHEZ Nostraafafa** 🌟\n\n{caption}", json.dumps(reply_markup))
 
 
 def handle_message(update):
@@ -96,7 +96,7 @@ def handle_message(update):
     if text == "/start":
         handle_start(chat_id)
     else:
-        send_message(chat_id, "Utilisez /start pour accéder à la mini-app El Doctor 🌿")
+        send_message(chat_id, "Utilisez /start pour accéder à la mini-app Nostraafafa 🌿")
 
 
 def set_webhook(webhook_url):
